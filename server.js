@@ -39,9 +39,6 @@ app.use('/api/orders', ensureLoggedIn, require('./routes/api/orders'));
 //   });
 
 
-app.use('/api/users', require("./routes/api/users"))
-
-
 // 'Catch all' route. (the * is necessary). This 
 // is necessary to return the index.html on all 
 // non-AJAX requests.
